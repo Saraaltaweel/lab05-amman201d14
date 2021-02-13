@@ -143,8 +143,9 @@ function multiplyAnyArray(dynamicArray) {
   let m = multiply(dynamicArray[0],dynamicArray[1])[0];
   let n = multiply(m,dynamicArray[2])[0];
   let h = multiply(n,dynamicArray[3])[0];
+  let q = multiply(h,dynamicArray[4])[0];
  
-    return [h ,`The numbers ${dynamicArray[0]},${dynamicArray[1]},${dynamicArray[2]},${dynamicArray[3]} have a product of ${h}.`]
+    return [q ,`The numbers ${dynamicArray[0]},${dynamicArray[1]},${dynamicArray[2]},${dynamicArray[3]},${dynamicArray[4]} have a product of ${q}.`]
   }
 
 // Here is the test for multiplyArray(); uncomment it to run it
